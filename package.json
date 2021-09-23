@@ -1,0 +1,18 @@
+{
+  "name": "ibm-intents-generator",
+  "version": "1.0.0",
+  "description": "Gera arquivo de inteções do IBM Watson importando uma lista no formato CSV.",
+  "main": "src/index.js",
+  "repository": "https://github.com/frabelo-neoassit/ibm-intents-generator.git",
+  "scripts": {
+    "ibm-intents": "node ./ibm-intents"
+  },
+  "author": "Fabricio Pereira Rabelo",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {},
+  "devDependencies": {
+    "camel-case": "^4.1.2",
+    "yargs": "^17.2.0"
+  }
+}
