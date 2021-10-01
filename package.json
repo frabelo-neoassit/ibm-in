@@ -7,10 +7,13 @@
   "author": "Fabricio Pereira Rabelo",
   "license": "MIT",
   "private": true,
-  "dependencies": {},
+  "scripts": {
+    "intents": "node ./src/index.js"
+  },
   "devDependencies": {
     "camel-case": "^4.1.2",
     "uuid": "^8.3.2",
-    "yargs": "^17.2.0"
+    "yargs": "^17.2.0",
+    "yarn": "^1.22.15"
   }
 }
